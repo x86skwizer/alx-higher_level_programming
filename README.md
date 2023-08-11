@@ -7,8 +7,6 @@ Welcome to the ALX Higher Level Programming repository! This repository contains
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
