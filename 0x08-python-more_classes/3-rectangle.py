@@ -48,6 +48,7 @@ class Rectangle:
         return (self.width + self.height) * 2
 
     def __str__(self):
+        """easy_to_read"""
         matrix = ""
         for j in range(self.height - 1):
             matrix += "#" * self.width + "\n"
