@@ -57,5 +57,5 @@ class Rectangle:
         matrix += '#' * self.width
         return matrix
 
-    def ___repr__(self):
-        return (f"Rectangle({self.__width}, {self.__height})")
+    def __repr__(self):
+        return (f"Rectangle({self.width}, {self.height})")
