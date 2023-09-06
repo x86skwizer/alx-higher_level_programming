@@ -1,0 +1,12 @@
+# 0-add_integer.txt
+>>> import sys
+
+>>> sys.path.append("..")
+
+>>> import add_integer
+
+>>> 0-add_integer.add_integer(2, 3)
+5
+
+>>> 0-add_integer.add_integer(-1, 1)
+0
