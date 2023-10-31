@@ -79,7 +79,7 @@ class Rectangle:
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
 
-     @staticmethod
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Compares area of two instances and returns larger of the two.
 
