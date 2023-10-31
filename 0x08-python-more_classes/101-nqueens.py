@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """nqueen solver"""
 
 
@@ -43,6 +41,7 @@ def dobacktrack(s):
 
 
 if __name__ == '__main__':
+    """main function"""
     import sys
     if len(sys.argv) > 2 or len(sys.argv) == 1:
         print("Usage: nqueens N")
