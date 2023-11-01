@@ -5,6 +5,7 @@ Write a function that divides all elements of a matrix.
 -matrix must be a list of lists of integers or floats
 """
 
+
 def matrix_divided(matrix, div):
     """
     Function that divides all elements of a matrix.

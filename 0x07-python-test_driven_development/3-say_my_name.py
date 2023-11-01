@@ -5,6 +5,7 @@ Write a function that prints My name is <first name> <last name>
 -first_name and last_name must be strings
 """
 
+
 def say_my_name(first_name, last_name=""):
     """
     Function prints My name is <first name> <last name>
