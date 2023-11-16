@@ -75,8 +75,12 @@ class Rectangle(Base):
         return self.width * self.height
 
     def display(self):
-        """prints in stdout Rectangle instance with character #"""
+        """Prints in stdout Rectangle instance with character #"""
         for j in range(self.height):
             for i in range(self.width):
                 print("#", end="")
             print("")
+
+    def __str__(self):
+        """Overriding __str__ method"""
+        return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
